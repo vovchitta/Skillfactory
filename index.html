@@ -3,19 +3,123 @@
 
 <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="site-card" content="Frontend-developer">
+    <title>Владимир Домнин. Разработчик</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <h1>Hello World!</h1>
+    <header class="header">
+
+        <nav class="header__nav">
+            <a href="#about">Обо мне</a>
+            <a href="#education">Образование</a>
+            <a href="#experience">Опыт работы</a>
+            <a href="#interest">Хобби</a>
+            <a href="#dev">Как я стал разработчиком</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
     </header>
 
-    <main>
+    <main class="main">
+        <aside class="aside">
+            <div class="aside__photo">
+                <img src="images/me.jpeg" alt="prize winner">
+            </div>
+        </aside>
+        <section class="section">
+            <h1>Владимир Домнин. Разработчик</h1>
+            <div class="section__about">
+                <img src="images/about.svg" alt="person-icon">
+                <h2><a id="about">Обо мне</a></h2>
+            </div>
+            <p>Меня зовут Владимир. Мне 30 лет. Родился и вырос в городе Москва. Недавно уехал из России в Дубай(ОАЭ).
+                Последние 8 лет работаю барменом. Но сейчас открываю для себя новые возможности</p>
+            <div class="section__education">
+                <img src="images/education.svg" alt="school-icon">
+                <h2><a id="education">Образование</a></h2>
+            </div>
+            <ul>
+                <li>Среднее полное</li>
+                <ul>
+                    <li>Cредняя образовательная школа 797 <em>(2000-2011)</em></li>
+                </ul>
+                <li>Неоконченное высшее</li>
+                <ul>
+                    <li>Московский
+                        Энергетический Институт <em>(2012-2014)</em></li>
+                </ul>
+            </ul>
+            <div class="section__experience">
+                <img src="images/experience.svg" alt="star-icon">
+                <h2><a id="experience">Опыт работы</a></h2>
+            </div>
+            <p>Опыта работы в сфере IT у меня ещё не было. Но я активно изучаю профессию<br>
+                <strong>frontend-разработчик</strong> и надеюсь
+                достичь успеха в ближайшее время
+            </p>
+            <div class="section__interest">
+                <img src="images/interest.svg" alt="sports-icon">
+                <h2><a id="interest">Хобби</a></h2>
+            </div>
+            <ul>
+                <li>frontend</li>
+                <li>спорт</li>
+                <li>путешествия</li>
+                <li>кинематограф</li>
+                <li>музыка</li>
+            </ul>
+            <div class="section__dev">
+                <img src="images/dev.svg" alt="developer-icon">
+                <h2><a id="dev">Как я стал разработчиком</a></h2>
+            </div>
+            <p>Сайты, соцсети, приложения занимают в нашей жизни сейчас большую нишу. И я постоянно сталкиваюсь с
+                несовершенством в виде неработающих ссылок, сломанных сайтов, неудобного интерфейса,
+                ужасающего дизайна и прочего. Это меня угнетает и вызывает желание исправить что-то или сделать хорошо
+                самому. Поэтому я принял решение изучить свзяанную с этим профессию. Так же
+                я люблю путешествовать и удалённая работа может открыть для меня новые возможности. Перед тем как
+                выбрать
+                курс для изучения, я провёл анализ предложений на рынке услуг и, основываясь на
+                образовательной программе, отзывах, всевозможных рейтингах и прочем, я выбрал курс
+                <strong>Frontend-разработчик PRO</strong> на сайте <a href="https://skillfactory.ru/"
+                    target="_blank"><em><strong>SKILLFACTORY</strong></em></a>
+            </p>
+        </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
+
+        <div class="footer__contacts">
+            <img src="images/contacts.svg" alt="contacts-icon">
+            <h2><a id="contacts">Контакты</a></h2>
+        </div>
+        <div class="footer__info">
+            <div>
+                <img src="images/phone.svg" alt="phone-icon">
+                <h2>Телефон</h2>
+                <a href="tel:+79032039949" target="_blank">+7 903 203 99 49</a>
+            </div>
+            <div>
+                <img src="images/email.svg" alt="email-icon">
+                <h2>E-mail</h2>
+                <a href="mailto:vovchitta1@gmail.com" target="_blank">vovchitta1@gmail.com</a>
+            </div>
+            <div>
+                <img src="images/instagram.svg" alt="instagram-icon">
+                <h2>Instagram</h2>
+                <a href="https://instagram.com/vovchitta?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+                    target="_blank">Vladimir Domnin</a>
+            </div>
+        </div>
 
     </footer>
 

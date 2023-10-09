@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    src: local("DM Serif Display"),
+        url("DMSerifDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+        url("Roboto-Regular.ttf") format("truetype");
+}

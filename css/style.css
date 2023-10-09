@@ -1,0 +1,136 @@
+@import url(normalize.css);
+@import url(../fonts/fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+body {
+    background: linear-gradient(lightyellow, white) no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display";
+    color: rgb(60, 60, 60);
+}
+
+.header__nav a,
+.footer__info a {
+    text-decoration: none;
+    color: inherit;
+    white-space: nowrap;
+    padding: 0.5vw;
+}
+
+.header__nav a:hover,
+.footer__info a:hover {
+    color: lightsalmon;
+}
+
+.header {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0.5vw 6vw;
+    border-bottom: 1px solid grey;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0 6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.aside {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 2vw 0;
+    text-align: center;
+}
+
+.aside__photo img {
+    border: 1px solid grey;
+    width: 70%;
+}
+
+.section {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    padding: 2vw 0;
+}
+
+.section__about,
+.section__education,
+.section__experience,
+.section__interest,
+.section__dev {
+    display: flex;
+    gap: 1vw;
+}
+
+h1 {
+    margin: 0 0 1vw 0;
+}
+
+p,
+ul {
+    margin: 1vw 0;
+}
+
+strong {
+    color: lightsalmon;
+}
+
+.footer {
+    display: flex;
+    gap: 8vw;
+    grid-column: 1;
+    grid-row: 3;
+    padding: 1vw 6vw;
+    border-top: 1px solid gray;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding-right: 1vw;
+    border-right: 1px solid gray;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+
+.footer__info div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
